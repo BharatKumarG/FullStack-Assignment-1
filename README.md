@@ -2,6 +2,8 @@
 
 # Home Page
 ![image](https://github.com/BharatKumarG/FullStack-Assignment-1/assets/115140844/f30e0ff6-4f28-42ff-8828-8fcff0b517bd)
+![image](https://github.com/BharatKumarG/FullStack-Assignment-1/assets/115140844/3c76d400-63ac-4cf0-878e-86dabb19c6c3)
+
 
 ## Description 
 A friendly greeting to visitors arriving on the landing page.
