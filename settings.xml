@@ -1,0 +1,41 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/SETTINGS/1.0.0/settings.xsd">
+
+    <!-- Servers for authentication and deployment -->
+    <servers>
+        <server>
+            <id>TomcatServer</id>
+            <username>tomcat</username>
+            <password>tomcat<password>
+        </server>
+    </servers>
+
+    <!-- Mirrors, proxies, and repositories (if needed) -->
+    <mirrors>
+        <!-- Add mirrors if required -->
+    </mirrors>
+
+    <proxies>
+        <!-- Add proxies if required -->
+    </proxies>
+
+    <profiles>
+        <profile>
+            <id>default</id>
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <url>https://repo.maven.apache.org/maven2</url>
+                </repository>
+                <!-- Add more repositories if needed -->
+            </repositories>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>default</activeProfile>
+    </activeProfiles>
+
+</settings>
+
