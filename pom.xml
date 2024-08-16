@@ -48,7 +48,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.6.3</version>
                 <configuration>
                     <source>${maven.compiler.source}</source>
                     <target>${maven.compiler.target}</target>
@@ -58,7 +58,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.1</version>
+                <version>3.6.3</version>
             </plugin>
             <!-- Optionally, Tomcat Maven Plugin for deploying to Tomcat -->
             <plugin>
@@ -66,7 +66,7 @@
                 <artifactId>tomcat-maven-plugin</artifactId>
                 <version>1.1</version>
                 <configuration>
-                    <url>http://172.27.133.24:8080/manager/html</url>
+                    <url>http://172.27.133.24:8484/manager/html</url>
                     <server>TomcatServer</server>
                     <path>/my-project</path>
                 </configuration>
